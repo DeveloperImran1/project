@@ -1,64 +1,71 @@
 /* <!-- common shared styles --> */
-body{
+body {
     font-family: 'Open Sans', sans-serif;
 }
-.text-primary{
-    color:#FD6E0A;
+
+.text-primary {
+    color: #FD6E0A;
 }
 
-.btn-primary{
-    background-color:#FD6E0A;
-    border-radius:5px;
-    border:0;
-    color:white;
-    padding:15px 35px;
+.btn-primary {
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    padding: 15px 35px;
 }
 
-.section-title{
-    color:#181818;
-    text-align:center;
-    font-size:35px;
-    font-weight:700;
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
 }
-.section-description{
-    color:#757575;
-    text-align:center;
-    font-size:18px;
+
+.section-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
 
 }
+
 /* nav related styles */
-nav{
-    display:flex;   /*  nav er element gulu pasapasi jabe */
-     justify-content:space-between;        /* nav er vitor element page er 2 pase chole jabe */
-    align-items:center;
+nav {
+    display: flex;
+    /*  nav er element gulu pasapasi jabe */
+    justify-content: space-between;
+    /* nav er vitor element page er 2 pase chole jabe */
+    align-items: center;
     margin: 0 200px;
 }
 
-.nav-title{
-    color:#181818;
-    font-size:45px;
-    font-weight:800;
+.nav-title {
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
 }
 
-nav > ul{
-    display:flex;
-    align-items:center;       /* ul er all element row borabor soman hoiase*/
+nav>ul {
+    display: flex;
+    align-items: center;
+    /* ul er all element row borabor soman hoiase*/
 
 }
-nav li{
+
+nav li {
     list-style: none;
-    margin-right:50px;
+    margin-right: 50px;
 }
 
-nav a{
-    text-decoration:none;
+nav a {
+    text-decoration: none;
     color: #474747;
 }
 
 
 /* header related style  */
 
-.header{
+.header {
     background-color: #FFF8F3;
     background-image: url("./header_bg.png");
     background-repeat: no-repeat;
@@ -66,50 +73,94 @@ nav a{
 }
 
 
-.banner{
-    padding:30px 30px 0px 150px;
-    display:flex;
-    align-items:center;
-}
-.banner .profile-pic{
-    width:500px;
-}
-.banner-greeting{
-    font-size:45px;
-    color:#474747;
-    margin-bottom:0;
+.banner {
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
 }
 
-.banner-title{
-    font-size:85px;
-    font-weight:700;
-    margin-top:5px;
-    margin-bottom:20px;
+.banner .profile-pic {
+    width: 500px;
+}
+
+.banner-greeting {
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
 }
 
 
 
 /* main section styles */
-main{
-    max-width:1140px;
+main {
+    max-width: 1140px;
     margin: 0 auto;
 }
 
-/* about secton styles */
-.about{
-    padding:130px;
-    border-radius: 10px;
-    background-color:#FFF8F3;
-    margin:130px 0;
+main section {
+    margin-top: 130px;
 }
 
-.about-info-container{
-    display:flex;
-    justify-content:space-around;
+/* about secton styles */
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background-color: #FFF8F3;
+    margin: 130px 0;
 }
-.about-info{
-    text-align:center;
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
 }
-#what-i-do-desciption{
-    padding:30px 150px;
+
+.about-info {
+    text-align: center;
+}
+
+/* skill-related-style */
+#what-i-do-desciption {
+    padding: 30px 150px;
+}
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+
+}
+
+.skill-descripton {
+    width: 201px;
+    color: var(--Dark-03, #757575);
+
+    font-size: 16px;
+
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
+}
+
+/* Resume section style  */
+.resume-column-title {
+    color: #474747;
+    
+    font-size: 30px;
+   
+    font-weight: 700;
+
+
 }
